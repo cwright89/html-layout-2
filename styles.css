@@ -1,0 +1,305 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    height: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    color:white;
+    position: fixed;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+header img{
+    height: 100px;
+}
+
+header nav{
+    padding-top: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section-1{
+    width: 100%;
+    height: 800px;
+    background-image: url('https://www.thesun.co.uk/wp-content/uploads/2020/05/image-165.png');
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    justify-content: space-evenly;
+    
+
+}
+.test-section{
+    padding-left: 200px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 130px;
+    }
+    .upcomingTest{
+        padding-bottom: 10px;
+        padding-left: 25px;
+    }
+    .starship-test{
+        padding-bottom: 10px;
+        padding-left: 25px;
+        font-synthesis: bold;
+        font-size: 40px;
+    
+    }
+    .watch-box{
+    border: thin solid white;
+    width:80px;
+    text-align: center;
+    margin-left: 40px;
+    }
+
+.section-2{
+
+    width: 100vw;
+    height: 900px;
+    background-image: url(https://unsplash.com/photos/Ptd-iTdrCJM/download?force=true
+    );
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    border: thin;
+    padding-top: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    justify-content: space-evenly;
+    
+
+}
+.launch{
+padding-left: 200px;
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: space-evenly;
+padding-bottom: 100px;
+}
+.recent{
+    padding-bottom: 10px;
+    padding-left: 25px;
+}
+.mission{
+    padding-bottom: 10px;
+    padding-left: 25px;
+    font-style: bold;
+    font-size: 40px;
+
+}
+.watch-box2{
+border: thin solid white;
+width:80px;
+text-align: center;
+margin-left: 40px;
+}
+
+.section-3{
+    width: 100%;
+    height: 100px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0173/8204/7844/articles/untitleddesign_1_original_591dcc07-67c9-4413-b1a7-33c8a179216a_2000x.jpg?v=1605372076);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+
+    padding-top: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    justify-content: space-evenly;
+    
+
+}
+.crew{
+padding-left: 200px;
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: space-evenly;
+padding-bottom: 170px;
+text: bold;
+}
+.crewmission{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-style: bold;
+    font-size: 40px;
+}
+.watch-the{
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+}
+.learnbox{
+border: thin solid white;
+width:80px;
+text-align: center;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+.section-4{
+    width: 100%;
+    height: 100px;
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_crop,h_1596,w_2372,x_14,y_0/v1589469049/shape/mentalfloss/gettyimages-114951190_1.jpg?itok=L8p37rNi);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    justify-content: space-evenly;
+    
+
+}
+.simulator{
+padding-left: 200px;
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: space-evenly;
+padding-bottom: 200px;
+
+
+}
+.dragon{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-style: bold;
+    font-size: 40px;
+}
+.description{
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+}
+.trybox{
+border: thin solid white;
+width:80px;
+text-align: center;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+
+.section-5{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://cdn.arstechnica.net/wp-content/uploads/2019/02/43895099105_0eaf6ef695_k.jpg);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    justify-content: space-evenly;
+    
+
+}
+.starship{
+padding-left: 200px;
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: space-evenly;
+padding-bottom: 800px;
+text: bold;
+}
+.starship-title{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font-style: bold;
+    font-size: 30px;
+}
+.description2{
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+}
+.learnbox2{
+border: thin solid white;
+width:80px;
+text-align: center;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+
+.section-6{
+    width: 100%;
+    height: 200px;
+    background-image: url(https://cdn.wccftech.com/wp-content/uploads/2020/05/SPACEX-MOON-STARSHIP-LANDING-VEHICLE-CONCEPT-2060x1151.png);
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding-top: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    color: white;
+    justify-content: space-evenly;
+    
+
+}
+.NASA{
+padding-left: 200px;
+display: flex;
+align-items: left;
+flex-direction: column;
+justify-content: space-evenly;
+padding-bottom: 800px;
+text: bold;
+}
+.nasa-selects{
+    padding-bottom: 20px;
+    padding-left: 25px;
+    font: bold;
+    font-size: 25px;
+    word-spacing: large;
+}
+.description3{
+    padding-bottom: 20px;
+    padding-left: 25px;
+
+}
+.learnbox3{
+border: thin solid white;
+width:80px;
+text-align: center;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+
+footer {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px 15px;
+    color:white;
+    z-index: 2;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    margin-bottom: 0%;
+
+}
+footer nav{
+    padding-top: 10vh;
+    display: flex;
+    justify-content: space-evenly;
+}
